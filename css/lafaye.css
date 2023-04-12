@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+.navbar-brand {
+    font-family: 'Roboto Mono', monospace;
+}
+.bg-lafaye {
+    background-color: #4c0bce;
+}
+.bg-header-lafaye {
+    background: rgb(2,0,36);
+    background: linear-gradient(150deg, rgba(2,0,36,1) 59%, rgba(76,11,206,1) 100%);
+}
+a {
+    color: #4c0bce;
+    text-decoration: none;
+}
+a:hover {
+    color: #4c0bce;
+    text-decoration: underline
+}
+
+.text-lafaye {
+    color: #4c0bce;
+}
