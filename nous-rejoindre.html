@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>LAFAYE - Accueil</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/lafaye.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Connexion à l'administration</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div id="modelerror" class="alert alert-danger" role="alert" style="display: none;">
+                    <strong>Le nom d'utilisateur et le mot de passe ne correspondent pas.</strong><br> <small>En cas de première connexion, votre mot de passe est identique à votre nom d'utilisateur. Toutefois votre sécurité est notre priorité. Pour cela, votre mot de passe a été sécurisé en utilisant une méthode éprouvée depuis l’époque romaine.</small>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Nom d'utilisateur :</label>
+                    <input type="email" class="form-control" id="inputLogin" name="login">
+                  </div>
+                  <div class="mb-3">
+                    <label for="inputPassword" class="form-label">Mot de passe : </label>
+                    <input type="password" class="form-control" id="inputPassword" name="password">
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                  <button type="button" class="btn btn-primary" id="connect">Se connecter</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-lafaye" data-bs-theme="dark">
+            <div class="container text-center px-5 justify-content-between">
+                <a class="navbar-brand" href="index.html">LAFAYE</a>
+                <a class="btn btn-sm btn-outline-light" type="submit" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Administration des offres</a>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-header-lafaye py-5">
+            <div class="container px-5">
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <div class="text-center my-5">
+                            <h1 class="display-5 fw-bolder text-white mb-2">Gestion de votre patrimoine IT</h1>
+                            <p class="lead text-white-50 mb-4">Laissez-nous vos applications, on s'occupe de tout.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Features section-->
+        <section class="border-bottom" id="features">
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Ingénieur Réseau (ref. L30523)</h2>
+                </div>
+                <div class="row gx-5">
+                    <p class="fw-bold">Description du poste : </p>
+                    <p>En tant qu’ingénieur réseau chez Lafaye, vous serez responsable de la conception, de la mise en œuvre et de la maintenance des réseaux informatiques de l’entreprise. Vous travaillerez sur des projets de déploiement, d’optimisation et de sécurité des infrastructures réseau.</p>
+                    <p class="fw-bold">Exigences :</p>
+                    <ul>
+                        <li>Diplôme d’ingénieur en informatique, télécommunications ou domaine connexe.</li>
+                        <li>Solides compétences en administration réseau, y compris la configuration, la surveillance et la résolution des problèmes.</li>
+                        <li>Connaissance des protocoles réseau tels que TCP/IP, DNS, DHCP, etc.</li>
+                        <li>Expérience avec des équipements réseau Cisco, HPIMS, Wireshark, etc.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container px-5 my-5">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bolder">Ingénieur Linux (ref. L37473)</h2>
+                </div>
+                <div class="row gx-5">
+                    <p class="fw-bold">Description du poste : </p>
+                    <p>En tant qu’ingénieur Linux chez Lafaye, vous serez chargé de la gestion, de la maintenance et de l’optimisation des systèmes d’exploitation Linux. Vous travaillerez sur des projets liés à la virtualisation, à la sécurité et à l’administration des serveurs Linux.</p>
+                    <p class="fw-bold">Exigences :</p>
+                    <ul>
+                        <li>Solide expérience avec les systèmes d’exploitation Linux (Red Hat, CentOS, Ubuntu, etc.).</li>
+                        <li>Compétences en virtualisation (VMware, KVM, Docker, etc.).</li>
+                        <li>Connaissance des outils de gestion et de surveillance des serveurs Linux.</li>
+                        <li>Capacité à résoudre les problèmes liés aux performances et à la sécurité des systèmes Linux.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Contact section-->
+        <section class="bg-light py-5">
+            <div class="container px-5 my-5 px-5">
+                <div class="text-center mb-5">
+                    <div class="feature bg-lafaye bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+                    <h2 class="fw-bolder">Postuler</h2>
+                </div>
+                <div class="row gx-5 justify-content-center">
+                    <div class="col-lg-6">
+                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                            <!-- Name input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Nom / Prénom</label>
+                            </div>
+                            <!-- Email address input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <label for="email">Adresse email</label>
+                            </div>
+                            <!-- Phone number input-->
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="phone" type="text"  placeholder="..." data-sb-validations="required" />
+                                <label for="phone">Référence de l'offre</label>
+                            </div>
+                            <!-- Message input-->
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                            <!-- Submit Button-->
+                            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Envoyer</button></div>
+                            <small>(ou contacter notre référent RH elysian.lunebourg@lafaye.fr)</small>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container px-5"><p class="m-0 text-center text-white"><a href="#" class="text-reset text-decoration-underline">Nos partenaires</a> - <a href="#" class="text-reset text-decoration-underline">Nous contacter</a> - <a href="nous-rejoindre.html" class="text-reset text-decoration-underline">Nous rejoindre</a></p></div>
+            <div class="container px-5"><p class="m-0 text-center text-white">&copy; LAFAYE - SERIOUS GAME</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

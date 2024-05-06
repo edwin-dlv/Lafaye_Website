@@ -1,7 +1,10 @@
-/*!
-* Start Bootstrap - Business Frontpage v5.0.9 (https://startbootstrap.com/template/business-frontpage)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-frontpage/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
+
+document.getElementById("connect").onclick = function() {  
+login = document.getElementById("inputLogin").value;
+password = document.getElementById("inputPassword").value;
+if (login == 'LU24EL' && password == 'OX24HO'){
+document.location.href = 'administration.html';
+} else {
+document.getElementById("modelerror").style.display = "block";
+}
+}; 
